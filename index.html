@@ -1,22 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FraudCheck Perú</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
   <script defer src="app.js"></script>
 </head>
 <body>
   <header>
-    <img src="fraudcheck_logo.png" alt="Logo de FraudCheck" style="max-width: 200px; margin-bottom: 1em;">
+    <img src="fraudcheck_logo.png" alt="Logo de FraudCheck" style="max-width: 180px; margin-bottom: 1em;" />
     <h1>¿Has sido víctima de una estafa?</h1>
     <p>Reporta fraudes por llamadas, SMS, WhatsApp, suplantaciones y más. Únete a nuestra comunidad.</p>
     <button id="loginBtn">Iniciar sesión con Google</button>
   </header>
 
-  <section id="reportForm" style="display:none;">
+  <section id="reportForm" style="display: none;">
     <h2>Reporta tu caso</h2>
     <form>
       <label>Tipo de estafa:
@@ -28,19 +27,24 @@
           <option>Red social</option>
           <option>Otro</option>
         </select>
-      </label><br>
+      </label><br />
+
       <label>Plataforma / medio:
-        <input type="text" placeholder="Ej. Facebook, OLX, llamada, etc.">
-      </label><br>
+        <input type="text" placeholder="Ej. Facebook, OLX, llamada, etc." />
+      </label><br />
+
       <label>Descripción del caso:
         <textarea placeholder="Cuenta brevemente lo ocurrido..."></textarea>
-      </label><br>
+      </label><br />
+
       <label>Fecha aproximada:
-        <input type="date">
-      </label><br>
+        <input type="date" />
+      </label><br />
+
       <label>Monto afectado (opcional):
-        <input type="number">
-      </label><br>
+        <input type="number" />
+      </label><br />
+
       <button type="submit">Enviar reporte</button>
     </form>
   </section>
